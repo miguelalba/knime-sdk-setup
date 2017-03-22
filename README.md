@@ -27,13 +27,18 @@ clone our repositories.
 * _Third Party Update-Sites:_ If you need additional plug-ins from third party update-sites, you can edit the software sites in the target definitions. For example you can add the update-sites from [Community Contributions Website](https://tech.knime.org/community).
 
 ### Getting Started
-* Download and install [Eclipse 4.6.1](http://www.eclipse.org/downloads/packages/release/Neon/1A). Make sure to use version 4.6.1 and not 4.6.2 because the latter contains a bug 
-  in the Java compiler that makes it impossible to compile some KNIME classes.
-* Install the __Eclipse Plug-in Development Environment__ plug-in from  __The Eclipse Project Updates__ update-site
-* Clone this repository
-* Import **all** projects ``(File -> Import -> General -> Existing Projects)`` from this repository into your workspace
-* Double-click the target platform definition file ``KNIME.target``, which you will find in the ``org.knime.sdk.setup`` project.
-* Now wait until Eclipse has resolved the target platform and then click  __Set as Target Platform__ (upper-right corner)
+1. Download and unzip the [Eclipse Installer](https://wiki.eclipse.org/Eclipse_Installer).
+2. Start the eclipse installer and switch to the *ADVANCED MODE* via the menu in the top right.
+3. Add the *KNIME Analytics Platform SDK* setup definition by clicking on the
+   green plus button and pasting the following URI: `https://bitbucket.org/TODO` when prompted.
+   You can now switch back to the simple mode by clicking on the button with a
+   wrench and screewdriver icon. It is located in the bottom left corner of the dialog window.
+4. Now the *KNIME Analytics Platform SDK* should be available to select for installation within the eclipse installer.
+5. Select it and follow the installation instructions, when prompted agree to trust the certificates.
+6. After the installation has finished, you can start your KNIME Application
+   SDK. During the first start a series of tasks will execute, finalizing the setup process.
+
+#### Starting a debug instance of KNIME Analytics Platform
 * The ``KNIME Analytics Platform`` launch configuration is now available to you in the debug and run configuration dialogs as Eclipse application. The run configuration starts a new KNIME instance with all KNIME Analytics Platform Extensions in the target platform and your local workspace. This launched instance can be used for debugging and testing your custom functionality. All of the plug-ins available in your workspace take precedence over the plug-ins in the target platform.
 * The launch configuration uses 2GB of available RAM. If you want to use a different amount, change the value of the ``-Xmx2g`` VM argument in the _Arguments_ tab of the launch configuration.
 
