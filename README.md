@@ -31,7 +31,7 @@ clone our repositories.
 2. Start the installation process by double-clicking on `eclipse-inst`.
 2. Select `Advanced Mode...` from context menu (top-right corner).
 3. Click on the `green plus` and paste `https://bitbucket.org/TODO` to add `KNIME Analytics Platform SDK` as an installation option.
-4. Click on the `wrench and screwdriver" (bottom left corner) to switch back to `Simple Mode`.
+4. Click on the `wrench and screwdriver` (bottom left corner) to switch back to `Simple Mode`.
 5. Click on `KNIME Analytics Platform SDK` to start the installation process and follow the instructions. Note: When prompted agree to trust the certificates.
 6. During installation, the `KNIME Analytics Platform SDK` is automatically started. Please select a workspace.
 7. Wait until the installation process has been finished. You can follow the progress in the bottom right corner in the started `KNIME Analytics Platform SDK`. 
