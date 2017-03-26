@@ -1,4 +1,4 @@
-# ![Image](https://www.knime.org/files/knime_logo_github_40x40.png) KNIMEÂ® Analytics Platform - SDK Setup
+# ![Image](https://www.knime.org/files/knime_logo_github_40x40.png) KNIME® Analytics Platform - SDK Setup
 
 KNIME Analytics Platform is the leading open solution for data-driven innovation, helping you discover the potential hidden in your data, mine for fresh insights, or predict new futures. Our enterprise-grade, open source platform is fast to deploy, easy to scale, and intuitive to learn.
 
@@ -28,15 +28,13 @@ clone our repositories.
 
 ### Getting Started
 1. Download and unzip the [Eclipse Installer](https://wiki.eclipse.org/Eclipse_Installer).
-2. Start the eclipse installer and switch to the *ADVANCED MODE* via the menu in the top right.
-3. Add the *KNIME Analytics Platform SDK* setup definition by clicking on the
-   green plus button and pasting the following URI: `https://bitbucket.org/TODO` when prompted.
-   You can now switch back to the simple mode by clicking on the button with a
-   wrench and screewdriver icon. It is located in the bottom left corner of the dialog window.
-4. Now the *KNIME Analytics Platform SDK* should be available to select for installation within the eclipse installer.
-5. Select it and follow the installation instructions, when prompted agree to trust the certificates.
-6. After the installation has finished, you can start your KNIME Application
-   SDK. During the first start a series of tasks will execute, finalizing the setup process.
+2. Start the installation process by double-clicking on `eclipse-inst`.
+2. Select `Advanced Mode...` from context menu (top-right corner).
+3. Click on the `green plus` and paste `https://bitbucket.org/TODO` to add `KNIME Analytics Platform SDK` as an installation option.
+4. Click on the `wrench and screwdriver" (bottom left corner) to switch back to `Simple Mode`.
+5. Click on `KNIME Analytics Platform SDK` to start the installation process and follow the instructions. Note: When prompted agree to trust the certificates.
+6. During installation, the `KNIME Analytics Platform SDK` is automatically started. Please select a workspace.
+7. Wait until the installation process has been finished. You can follow the progress in the bottom right corner in the started `KNIME Analytics Platform SDK`. 
 
 #### Starting a debug instance of KNIME Analytics Platform
 * The ``KNIME Analytics Platform`` launch configuration is now available to you in the debug and run configuration dialogs as Eclipse application. The run configuration starts a new KNIME instance with all KNIME Analytics Platform Extensions in the target platform and your local workspace. This launched instance can be used for debugging and testing your custom functionality. All of the plug-ins available in your workspace take precedence over the plug-ins in the target platform.
