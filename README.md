@@ -37,7 +37,7 @@ clone our repositories.
 7. Wait until the installation process has been finished. You can follow the progress in the bottom right corner in the started KNIME Analytics Platform SDK. 
 
 #### Starting a debug instance of KNIME Analytics Platform
-* The ``KNIME Analytics Platform`` launch configuration is now available to you in the debug and run configuration dialogs as Eclipse application. The run configuration starts a new KNIME instance with all KNIME Analytics Platform Extensions in the target platform and your local workspace. This launched instance can be used for debugging and testing your custom functionality. All of the plug-ins available in your workspace take precedence over the plug-ins in the target platform.
+* The KNIME Analytics Platform launch configuration is now available to you in the debug and run configuration dialogs as Eclipse application. The run configuration starts a new KNIME instance with all KNIME Analytics Platform Extensions in the target platform and your local workspace. This launched instance can be used for debugging and testing your custom functionality. All of the plug-ins available in your workspace take precedence over the plug-ins in the target platform.
 * The launch configuration uses 2GB of available RAM. If you want to use a different amount, change the value of the ``-Xmx2g`` VM argument in the _Arguments_ tab of the launch configuration.
 
 ## Work with Source of KNIME Analytics Platform Extensions
