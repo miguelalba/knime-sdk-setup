@@ -28,13 +28,13 @@ clone our repositories.
 
 ### Getting Started
 1. Download and unzip the [Eclipse Installer](https://wiki.eclipse.org/Eclipse_Installer).
-2. Start the installation process by double-clicking on `eclipse-inst`.
-2. Select `Advanced Mode...` from context menu (top-right corner).
-3. Click on the `green plus` and paste `https://bitbucket.org/TODO` to add `KNIME Analytics Platform SDK` as an installation option.
-4. Click on the `wrench and screwdriver` (bottom left corner) to switch back to `Simple Mode`.
-5. Click on `KNIME Analytics Platform SDK` to start the installation process and follow the instructions. Note: When prompted agree to trust the certificates.
-6. During installation, the `KNIME Analytics Platform SDK` is automatically started. Please select a workspace.
-7. Wait until the installation process has been finished. You can follow the progress in the bottom right corner in the started `KNIME Analytics Platform SDK`. 
+2. Start the installation process by double-clicking on _eclipse-inst_.
+2. Select _Advanced Mode..._ from context menu _(top-right corner)_.
+3. Click on the _green plus_ and paste _https://bitbucket.org/TODO_ to add KNIME Analytics Platform SDK as an installation option.
+4. Click on the _wrench and screwdriver (bottom left corner)_ to switch back to _Simple Mode_.
+5. Click on KNIME Analytics Platform SDK to start the installation process and follow the instructions. Note: When prompted agree to trust the certificates.
+6. During installation, the KNIME Analytics Platform SDK is automatically started. Please select a workspace.
+7. Wait until the installation process has been finished. You can follow the progress in the bottom right corner in the started KNIME Analytics Platform SDK. 
 
 #### Starting a debug instance of KNIME Analytics Platform
 * The ``KNIME Analytics Platform`` launch configuration is now available to you in the debug and run configuration dialogs as Eclipse application. The run configuration starts a new KNIME instance with all KNIME Analytics Platform Extensions in the target platform and your local workspace. This launched instance can be used for debugging and testing your custom functionality. All of the plug-ins available in your workspace take precedence over the plug-ins in the target platform.
