@@ -47,6 +47,10 @@ While the target platform definitions enable you to install all KNIME Analytics 
 * Eclipse might show an error "No API Baseline set". You can safely set the error level at ``Window -> Preferences -> Plug-in Development -> API Baselines`` to ignore.
 * Use ``git lfs clone`` in favor of ``git clone`` to clone our repositories for faster cloning.
 * In case you experience compile errors such as ``The type org.dmg.pmml.* cannot be resolved`` or ``The import org.dmg.pmml.* cannot be resolved`` please close or remove the project ``org.knime.core.pmml``. This project contains auto-generated classes only and is already part of the target platform.
+* If the example project contains build errors after the setup process has
+  finished, then the resolution of the target platform hat failed. To fix this open
+  the file `KNIME.target` in the project `org.knime.sdk-setup` and select
+  `Set as Target Platform`.
 
 ## Links
 * [JavaDoc](https://tech.knime.org/javadoc-api)
