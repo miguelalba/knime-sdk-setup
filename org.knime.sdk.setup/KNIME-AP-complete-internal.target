@@ -116,6 +116,7 @@
 -Dorg.eclipse.swt.browser.IEVersion=10001
 -Dsun.awt.noerasebackground=true
 -Dsun.net.client.defaultReadTimeout=0
+-Dequinox.resolver.revision.batch.size=10
 -Dorg.eclipse.swt.internal.gtk.disablePrinting</vmArgs>
 </launcherArgs>
 </target>
