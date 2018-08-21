@@ -103,6 +103,7 @@
 -ea
 -Dorg.eclipse.swt.internal.gtk.cairoGraphics=false
 -Dorg.eclipse.swt.internal.gtk.useCairo=false
+-Dsun.awt.disablegrab=true
 -Dorg.eclipse.swt.browser.IEVersion=10001</vmArgs>
 </launcherArgs>
 </target>
