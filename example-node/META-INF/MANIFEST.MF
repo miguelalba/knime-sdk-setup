@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Example-node
+Bundle-SymbolicName: example-node;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Automatic-Module-Name: example-node
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Require-Bundle: org.knime.core,
+ org.eclipse.ui,
+ org.knime.workbench.repository;bundle-version="4.0.0",
+ org.knime.ext.svg;bundle-version="4.0.0"
+Export-Package: .,
+ example
+Bundle-Activator: example.Activator

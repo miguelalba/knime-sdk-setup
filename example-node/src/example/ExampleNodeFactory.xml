@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<knimeNode icon="FSK2R.png" type="Manipulator" deprecated="false"
+	xmlns="http://knime.org/node/v2.8"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://knime.org/node/v2.8 http://knime.org/node/v2.8.xsd">
+	<name>Example-node</name>
+
+	<shortDescription>
+		Short description
+    </shortDescription>
+
+	<fullDescription>
+		<intro>
+			Full description
+		</intro>
+	</fullDescription>
+	<ports>
+		<outPort name="Output" index="0">Output table</outPort>
+	</ports>
+</knimeNode>
